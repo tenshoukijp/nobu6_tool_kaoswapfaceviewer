@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LS11Native">
+      <UniqueIdentifier>{2607878a-c335-4f88-a0d7-5c35175af751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LS11Managed">
+      <UniqueIdentifier>{91155199-f01e-4e75-90cb-1eee2c4c5614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="武将列伝Importer">
+      <UniqueIdentifier>{6c7d3a1d-71f2-4f11-b00c-9caffb4aab7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapToKaoSwapCoreEngine.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KaoSwapFaceViewer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decode.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_decodePack.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encode.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_encodePack.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_getFileData.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_joinData.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_outFileData.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="Native\ls11_splitData.cpp">
+      <Filter>LS11Native</Filter>
+    </ClCompile>
+    <ClCompile Include="LS11DotNet.cpp">
+      <Filter>LS11Managed</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMapToKaoSwapCoreEngine.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KaoDataStruct.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="KaoSwapFaceViewerForm.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\ls11_lib.h">
+      <Filter>LS11Native</Filter>
+    </ClInclude>
+    <ClInclude Include="Native\ls11_mod.h">
+      <Filter>LS11Native</Filter>
+    </ClInclude>
+    <ClInclude Include="LS11DotNet.h">
+      <Filter>LS11Managed</Filter>
+    </ClInclude>
+    <ClInclude Include="BushouRetsudenImporter.h">
+      <Filter>武将列伝Importer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
